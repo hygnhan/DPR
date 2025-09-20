@@ -20,7 +20,7 @@ python datagen/generator.py --data colored_mnist --bias_ratio 0.005,0.01,0.05
 ```
 
 ### Running DPR
-We demonstrate DPR using the Colored MNIST (0.5%) as an example. To apply the method to other bias-conflicting ratios, simply modify the ```--bratio``` arguments accordingly.
+We demonstrate DPR using the Colored MNIST (0.5%) as an example. To apply the method to other bias-conflicting ratios, simply modify the ```--bratio``` argument accordingly.
 
 #### Colored MNIST (0.5%)
 - **Train biased models**

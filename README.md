@@ -1,4 +1,4 @@
-##  Mitigating Spurious Correlations via Disagreement Probability (NeurIPS 2024)
+##  Mitigating Spurious Correlations via Disagreement Probability
 This repository provides the official PyTorch implementation of the following paper:
 > Mitigating Spurious Correlations via Disagreement Probability<br>
 > Hyeonggeun Han, Sehwan Kim, Hyungjun Joo, Sangwoo Hong, Jungwoo Lee<br>

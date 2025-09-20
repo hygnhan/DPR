@@ -985,12 +985,8 @@ class Learner(object):
 
                     self.b_train_loss.update(loss,len(label))
                     self.b_train_acc.update(acc, len(label))
-                if self.args.dataset == 'celeba':
-                    self.validate_wga(bias = True)
-                    self.test_wga(bias = True)
-                else:
-                    self.validate(bias = True)
-                    self.test(bias = True)
+                self.validate(bias = True)
+                self.test(bias = True)
                 self.print_result(type='bias')
                 self.step_b.step()
             self.save_models('end',bias=True)
